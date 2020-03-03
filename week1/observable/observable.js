@@ -1,5 +1,3 @@
-
-
 const Observable = value => {
     const listeners = [];
     return {
@@ -16,7 +14,6 @@ const Observable = value => {
         }
     }
 };
-
 
 const ObservableList = list => {
     const addListeners = [];

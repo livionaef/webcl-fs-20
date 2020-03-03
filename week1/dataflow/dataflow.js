@@ -1,6 +1,6 @@
-
-// a dataflow abtstraction that is not based on concurrency but on laziness
-
+/*
+ a dataflow abtstraction that is not based on concurrency but on laziness
+ */
 const DataFlowVariable = howto => {
     let value = undefined;
     return () => {
