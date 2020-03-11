@@ -8,7 +8,7 @@ export { TodoController, TodoItemsView, TodoTotalView, TodoOpenView}
 
 const TodoController = () => {
 
-    const Todo = () => {                               // facade
+    const Todo = () => { // facade
         const textAttr = Attribute("text");
         const doneAttr = Attribute(false);
 
@@ -66,7 +66,6 @@ const TodoController = () => {
 
 
 // View-specific parts
-
 const TodoItemsView = (todoController, rootElement) => {
 
     const render = todo =>

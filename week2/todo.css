@@ -1,6 +1,6 @@
 body {
     margin-top:     2em;
-    font-family:    "Helvetica Neue", sans-serif;
+    font-family:    "Consolas", sans-serif;
 }
 main {
     max-width:  40em;
@@ -10,7 +10,7 @@ main {
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 h1 {
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Calibri", cursive, sans-serif;
     text-align: center;
 }
 .holder {

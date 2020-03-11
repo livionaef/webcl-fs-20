@@ -3,11 +3,11 @@ import { Attribute }      from "../presentationModel/presentationModel.js";
 import { Scheduler }      from "../dataflow/dataflow.js";
 import { fortuneService } from "./fortuneService.js";
 
-export { TodoController, TodoItemsView, TodoTotalView, TodoOpenView}
+export { TodoController, TodoItemsView, TodoTotalView, TodoOpenView }
 
 const TodoController = () => {
 
-    const Todo = () => {                               // facade
+    const Todo = () => { // facade
         const textAttr = Attribute("text");
         const doneAttr = Attribute(false);
 
@@ -25,7 +25,8 @@ const TodoController = () => {
         }
     };
 
-    const todoModel = ObservableList([]); // observable array of Todos, this state is private
+    // observable array of Todos, this state is private
+    const todoModel = ObservableList([]);
     const scheduler = Scheduler();
 
     const addTodo = () => {

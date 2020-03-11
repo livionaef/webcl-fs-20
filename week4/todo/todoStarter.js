@@ -1,4 +1,3 @@
-
 import {TodoController, TodoOpenView, TodoTotalView, TodoItemsView} from './todo.js';
 
 const todoController = TodoController();
@@ -15,5 +14,4 @@ TodoTotalView(todoController, document.getElementById('numberOfTasks'));
 TodoOpenView (todoController, document.getElementById('openTasks'));
 
 // init the model
-
 todoController.addTodo();
